@@ -1,0 +1,6 @@
+<%= form_with model: task do |form| %>
+  <%= form.text_field :title %>
+  <%= form.text_area :details%>
+  <%= form.check_box :completed%>
+  <%= form.submit %>
+<% end %>
